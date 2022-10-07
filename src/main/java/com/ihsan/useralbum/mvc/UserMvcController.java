@@ -20,7 +20,7 @@ public class UserMvcController {
 
     private final UserService userService;
 
-    @GetMapping("/saveUser")
+    @GetMapping("/")
     public ModelAndView getRegisterPage(){
         ModelAndView modelAndView=new ModelAndView();
         modelAndView.setViewName("register");
